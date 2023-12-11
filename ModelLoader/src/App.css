@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 body{
   background-color: slategray;
 }
@@ -10,4 +17,14 @@ canvas{
   padding 1 rem;
   background-color: #333;
   colore: #fff;
+}
+
+.footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+
+
 }

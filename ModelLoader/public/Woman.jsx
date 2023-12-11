@@ -13,9 +13,9 @@ export function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Armature" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
+        <group name="Armature" rotation={[Math.PI / 2, 0, 0]} scale={0.04}>
           <primitive object={nodes.mixamorigHips} />
-          <mesh name="Ch03" geometry={nodes.Ch03.geometry} material={materials.Ch03_Body} />
+          <mesh name="Ch03" geometry={nodes.Ch03.geometry} material={materials.Ch03_Body} scale = {1} />
         </group>
       </group>
     </group>
